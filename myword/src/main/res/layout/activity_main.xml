@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff0"
+    android:background="@drawable/gold"
     >
 
     <TextView
@@ -11,10 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="My Word"
-        android:textSize="100dp"
+        android:textSize="40dp"
         android:gravity="center"
         android:layout_weight="20"
         android:fontFamily="monospace"
+        android:padding="15dp"
         />
     <View
         android:layout_width="match_parent"
